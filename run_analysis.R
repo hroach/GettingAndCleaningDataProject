@@ -1,8 +1,9 @@
 
 ## DataScience - Getting and Cleaning Data - Project
-## fetch data
-##    activity labels
+
 run_analysis <- function(){
+    ## fetch data
+    ##    activity labels
     actLabels <- read.table("./data/activity_labels.txt", stringsAsFactors = FALSE)
     ##    measurement features (labels)
     mNames <- read.table("./data/features.txt", stringsAsFactors = FALSE)
@@ -18,6 +19,7 @@ run_analysis <- function(){
     trainingMeas <- read.table("./data/X_train.txt", stringsAsFactors = FALSE)
     ##    training activity map
     trainingAct <- read.table("./data/y_train.txt", stringsAsFactors = FALSE)
+    ## bring in neccessary packages
     library(plyr)
     library(Hmisc)
     library(dplyr)
