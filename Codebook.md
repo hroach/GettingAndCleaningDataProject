@@ -5,12 +5,12 @@
      <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones> 
 
 ## Purpose:
- To build a tidy data set that summarized the data for ìmeanî and ìstdî measurements on data furnished by the UCI study.
+ To build a tidy data set that summarized the data for ‚Äúmean‚Äù and ‚Äústd‚Äù measurements on data furnished by the UCI study.
 
 ## Data:
 >Original Data Source
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-    *    activity_labels.txt   - character labels for each of the 6 activities      
+*    activity_labels.txt   - character labels for each of the 6 activities      
     *    features.txt          - description for each of 561 measurement acquired
     *    subject_test.txt      -  integer ids for each of the 30 subjects
     *    X_test.txt            - [-1,1]  normalized measurements for the test dataset
@@ -32,7 +32,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
            * stringr  (V 1.0.0)
 
 
-## Process used to create the summarized data output ìmttasSum  dataframeî:
+## Process used to create the summarized data output ‚ÄúmttasSum  dataframe‚Äù:
    ### fetch data
     *    activity labels from activity_labels.txt     [describes the 6 activity catagories that were measured]
     *    measurement features from features.txt       [describes the types of measurements captured] 
@@ -47,7 +47,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
     ### rename activity and subject columns for test and training 
     ### assign the variable names for test and training measurement columns
     ### extract from features measurements those matching "mean" and "std" attributes
-    ### reduce test and training measurements to variables with ìmeanî andî stdî attributes
+    ### reduce test and training measurements to variables with ‚Äúmean‚Äù and‚Äù std‚Äù attributes
     ### build the test and training tables from the activities, subject, and measurements data
     ### merge test and training tables
     ### insure no NAs in merged table
