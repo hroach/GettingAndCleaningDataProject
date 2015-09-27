@@ -21,16 +21,16 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ### Measurement values were normalized by UIC
  
 ## Platform:
-### OS: Windows 7 64 bit 6 GB ram
+###    OS: Windows 7 64 bit 6 GB ram
               x86_64-w64-mingw32/x64 (64-bit)
-### Tools:
-#### RStudio Version 0.99.467
-#### R version 3.2.2 (2015-08-14) -- "Fire Safety"
-#### R Packages
-     * dplyr    (V 0.4.3)
-     * Hmisc    (V 3.16-0)
-     * plyr     (V 1.8.3)
-     * stringr  (V 1.0.0)
+###   Tools:
+####&nbsp;&nbsp;&nbsp;&nbsp; RStudio Version 0.99.467
+####&nbsp;&nbsp;&nbsp;&nbsp; R version 3.2.2 (2015-08-14) -- "Fire Safety"*
+####&nbsp;&nbsp;&nbsp;&nbsp; R Packages
+          * dplyr    (V 0.4.3)
+          * Hmisc    (V 3.16-0)
+          * plyr     (V 1.8.3)
+          * stringr  (V 1.0.0)
 
 
 ## Process used to create the summarized data output “mttasSum  dataframe”:
