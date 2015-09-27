@@ -2,7 +2,7 @@
 ## script run_analysis.R
 
 
-#Ordered List
+## this script does the following
 1. extracts data from the datasets provided by
 > the Machine Learning Repository 
      <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
